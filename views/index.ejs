@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/edit.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Posts">Posts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">create</a>
+      </li>
+
+    </ul>
+  </nav>
+
+<form method="post" action="/create">
+<input required class="inp" placeholder="Title" type="text" class="input-group input-group-sm mb-3" name="title"></input>
+
+<textarea required class="txt" rows="8" type="text" cols="50" name="desc"></textarea>
+<button class="butt btn btn-primary" type="submit">Submit</button>
+</input>
+</body>
+</html>

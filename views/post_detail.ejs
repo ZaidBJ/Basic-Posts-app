@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<title>Page Title</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Posts">Posts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">create</a>
+      </li>
+
+    </ul>
+  </nav>
+  <br></br>
+  
+<h4><strong><%= post.Title %></strong></h4>
+<br></br>
+Description - <%= post.Description %>
+<br></br>
+Created at - <%= post.timestamp %>
+
+</body>
+</html>
